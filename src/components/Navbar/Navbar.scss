@@ -1,0 +1,41 @@
+.navbar-list {
+  background-color: var(--dark-gray);
+  height: 60px;
+  padding: 0;
+  
+  .nav__logo {
+    width: 60px;
+    padding: 0;
+  }
+}
+
+
+.nav__logo {
+  img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    object-fit: center;
+    min-width: 40px;
+    cursor: pointer;
+    padding: 4px;
+  }
+}
+
+.nav-item {
+}
+  
+.nav-link {
+  font-size: 1.3rem;
+
+  &.active {
+    background-color: #090909;
+    height: 60px;
+  }
+
+  &.nav-item__link {
+    padding: 20px 15px !important;
+
+  }
+}
+

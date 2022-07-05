@@ -1,0 +1,20 @@
+.navbar-list {
+  background-color: var(--dark-gray);
+  height: 60px;
+}
+
+.logo img {
+  width: 60px;
+  min-width: 40px;
+  cursor: pointer;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  padding: 15px 14px;
+}
+
+.nav-item:hover, .nav-item:active {
+  background-color: #090909;
+}
+/*# sourceMappingURL=Navbar.css.map */

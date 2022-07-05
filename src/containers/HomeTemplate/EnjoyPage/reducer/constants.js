@@ -1,0 +1,5 @@
+export const LIST_MOVIE_REQUEST = '@listMovieReducer/LIST_MOVIE_REQUEST'
+export const LIST_MOVIE_SUCCESS = '@listMovieReducer/LIST_MOVIE_SUCCESS'
+export const LIST_MOVIE_FAIL = '@listMovieReducer/LIST_MOVIE_FAIL'
+export const MOVIE_TYPE_NOW = '@listMovieReducer/MOVIE_TYPE_NOW'
+export const MOVIE_TYPE_SOON = '@listMovieReducer/MOVIE_TYPE_SOON'

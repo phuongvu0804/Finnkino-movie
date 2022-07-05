@@ -1,0 +1,52 @@
+.btn__wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 45px;
+    min-height: 32px;
+    padding: 4px 12px;
+
+    border: 2px solid transparent;
+
+    + .btn__wrapper {
+        margin-left: 6px;
+    }
+
+    &.filled {
+        background-color: var(--primary);
+        color: var(--gray);
+    }
+
+    &.outline {
+        background-color: transparent;
+        color: var(--white);
+        border-color: currentColor;
+    }
+
+    &.large {
+        padding: 6px 22px;
+    }
+
+    &.small {
+        font-size: 1.4rem;
+        min-width: 238px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+        user-select: none;
+    }
+}
+
+.btn__icon--left {
+    margin-right: 12px;
+}
+
+.btn__icon--right {
+    margin-left: 12px;
+}
+
+.btn__title {
+
+}
